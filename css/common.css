@@ -52,3 +52,10 @@
     border: none;
     background-color: white;
 }
+
+.mission-horizontal-line {
+    width: 35%;
+    height: 6px;
+    border: none;
+    background-color: red;
+}
