@@ -1,1 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 
+.font-cardo {
+    font-family: 'Cardo', serif;
+}
+
+.main-image {
+    object-fit: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.main-horizontal-line {
+    width: 50%;
+    height: 6px;
+    margin: auto;
+    border: none;
+    background-color: #0D6EFD;
+}
+
+.mission-image {
+    width: 100%;
+}
+
+.mission-container {
+    background-color: #F8F9FA;
+}
+
+.journey-container {
+    position: relative;
+    color: white;
+    
+}
+
+.image-overlay-text-container {
+    position: absolute;
+    background-color: #000000cc;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.journey-horizontal-line {
+    width: 50%;
+    height: 6px;
+    border: none;
+    background-color: white;
+}
